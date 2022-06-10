@@ -10,11 +10,7 @@ namespace CSharp_Day01_BankApp
     class BankClass : IEnumerable
     {
         public static List<BankAccount> bankAccount = new List<BankAccount>();
-
-        /*public static BankAccount[] bankAccount = new BankAccount[10];*/
-
         public static int index = 0;
-
         public BankAccount[] accounts;
 
         public BankClass(List<BankAccount> accounts)

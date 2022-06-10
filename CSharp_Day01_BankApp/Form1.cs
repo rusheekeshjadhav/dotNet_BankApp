@@ -36,17 +36,9 @@ namespace CSharp_Day01_BankApp
             else
             {
                 if (comboBox1.SelectedItem.ToString() == "Saving")
-                {
                     BankClass.bankAccount.Add(new SavingAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString()));
-                    
-                    /*BankClass.bankAccount[BankClass.index] = new SavingAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());*/
-                }
                 else
-                {
                     BankClass.bankAccount.Add(new CurrentAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString()));
-
-                    /*BankClass.bankAccount[BankClass.index] = new CurrentAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());*/
-                }
 
                 this.FindForm().Hide();
                 Form2 form2 = new Form2();
@@ -58,7 +50,7 @@ namespace CSharp_Day01_BankApp
 
                 //  foreach directly on the class object containing the list
                 BankClass b = new BankClass(BankClass.bankAccount);
-                foreach(BankAccount x in b)
+                foreach (BankAccount x in b)
                 {
                     Console.WriteLine(x.ToString());
                 }
