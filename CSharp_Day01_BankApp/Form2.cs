@@ -77,13 +77,21 @@ namespace CSharp_Day01_BankApp
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            label9.Text = "Account No. : " + BankClass.bankAccount[BankClass.index - 1].AccountNumber;
+            /*label9.Text = "Account No. : " + BankClass.bankAccount[BankClass.index - 1].AccountNumber;
             label10.Text = "Account Holder : " + BankClass.bankAccount[BankClass.index - 1].AccountHolder;
             label12.Text = "Account Type : " + BankClass.bankAccount[BankClass.index - 1].AccountType;
 
             transEvent.depositMoney += BankClass.bankAccount[BankClass.index - 1].deposit;
             transEvent.withdrawMoney += BankClass.bankAccount[BankClass.index - 1].withdraw;
-            transEvent.checkBalance += BankClass.bankAccount[BankClass.index - 1].checkBalance;
+            transEvent.checkBalance += BankClass.bankAccount[BankClass.index - 1].checkBalance;*/
+
+            label9.Text = "Account No. : " + BankClass.bankAccount.ElementAt(BankClass.index - 1).AccountNumber;
+            label10.Text = "Account Holder : " + BankClass.bankAccount.ElementAt(BankClass.index - 1).AccountHolder;
+            label12.Text = "Account Type : " + BankClass.bankAccount.ElementAt(BankClass.index - 1).AccountType;
+
+            transEvent.depositMoney += BankClass.bankAccount.ElementAt(BankClass.index - 1).deposit;
+            transEvent.withdrawMoney += BankClass.bankAccount.ElementAt(BankClass.index - 1).withdraw;
+            transEvent.checkBalance += BankClass.bankAccount.ElementAt(BankClass.index - 1).checkBalance;
         }
 
         private void button4_Click(object sender, EventArgs e)

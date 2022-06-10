@@ -36,22 +36,34 @@ namespace CSharp_Day01_BankApp
             else
             {
                 if (comboBox1.SelectedItem.ToString() == "Saving")
-                    BankClass.bankAccount[BankClass.index] = new SavingAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());
+                {
+                    BankClass.bankAccount.Add(new SavingAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString()));
+                    
+                    /*BankClass.bankAccount[BankClass.index] = new SavingAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());*/
+                }
                 else
-                    BankClass.bankAccount[BankClass.index] = new CurrentAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());
+                {
+                    BankClass.bankAccount.Add(new CurrentAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString()));
+
+                    /*BankClass.bankAccount[BankClass.index] = new CurrentAccount(++BankClass.index, textBox1.Text, Convert.ToDouble(textBox2.Text), comboBox1.SelectedItem.ToString());*/
+                }
 
                 this.FindForm().Hide();
                 Form2 form2 = new Form2();
                 form2.Show();
 
-                foreach (BankAccount p in BankClass.bankAccount)
-                    Console.WriteLine(p);
+                //  foreach directly on the list
+                /*foreach (BankAccount p in BankClass.bankAccount)
+                    Console.WriteLine(p);*/
+
+                //  foreach directly on the class object containing the list
+                BankClass b = new BankClass(BankClass.bankAccount);
+                foreach(BankAccount x in b)
+                {
+                    Console.WriteLine(x.ToString());
+                }
             }
 
-            /*for (var i = 0; i < Program.ind; i++)
-            {
-                Console.WriteLine(Program.bank[i]);
-            }*/
         }
 
         private void Form1_Load(object sender, EventArgs e)

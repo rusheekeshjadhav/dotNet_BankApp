@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharp_Day01_BankApp
 {
-    public class BankAccount : IEnumerable
+    public class BankAccount
     {
         public int AccountNumber { get; set; }
         public string AccountHolder { get; set; }
@@ -54,14 +54,5 @@ namespace CSharp_Day01_BankApp
             return "Account Number: " + AccountNumber + "; Account Holder: " + AccountHolder + "; Account Type: " + AccountType + "; Balance: " + Balance;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return (IEnumerator)GetEnumerator();
-        }
-
-        public BankEnum GetEnumerator()
-        {
-            return new BankEnum(BankClass.bankAccount);
-        }
     }
 }
