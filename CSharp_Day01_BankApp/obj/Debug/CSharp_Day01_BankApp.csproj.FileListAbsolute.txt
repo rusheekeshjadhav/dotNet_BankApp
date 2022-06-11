@@ -22,3 +22,6 @@ D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.CoreCompileInputs.cache
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.exe
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.pdb
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form3.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form4.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form5.resources

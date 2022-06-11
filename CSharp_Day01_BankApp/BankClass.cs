@@ -13,9 +13,18 @@ namespace CSharp_Day01_BankApp
         public static int index = 0;
         public BankAccount[] accounts;
 
+        public static List<InvestmentInstruments> instruments = new List<InvestmentInstruments>();
+        public static int invIndex = 0;
+        public InvestmentInstruments[] investments;
+
         public BankClass(List<BankAccount> accounts)
         {
             this.accounts = accounts.ToArray();
+        }
+
+        public BankClass(List<InvestmentInstruments> investments)
+        {
+            this.investments = investments.ToArray();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
