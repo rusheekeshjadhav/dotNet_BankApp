@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace CSharp_Day01_BankApp
 {
-    public partial class Form2 : Form
+    public partial class Form_AccountDetails : Form
     {
         string messege;
 
         TransactionEvent transEvent = new TransactionEvent();
 
-        public Form2()
+        public Form_AccountDetails()
         {
             InitializeComponent();
         }
@@ -88,8 +88,8 @@ namespace CSharp_Day01_BankApp
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
+            Form_AccountOpen form = new Form_AccountOpen();
+            form.Show();
             this.FindForm().Hide();
         }
     }

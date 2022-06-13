@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Day01_BankApp
 {
-    partial class Form3
+    partial class Form_BankInit
     {
         /// <summary>
         /// Required designer variable.
@@ -52,15 +52,16 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form3
+            // Form_BankInit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form3";
+            this.Name = "Form_BankInit";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form_BankInit_Load);
             this.ResumeLayout(false);
 
         }

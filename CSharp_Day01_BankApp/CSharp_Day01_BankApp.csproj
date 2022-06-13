@@ -51,35 +51,35 @@
     <Compile Include="BankEnum.cs" />
     <Compile Include="CurrentAccount.cs" />
     <Compile Include="FixedDeposit.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_AccountOpen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_AccountOpen.Designer.cs">
+      <DependentUpon>Form_AccountOpen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Form_AccountDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Form_AccountDetails.Designer.cs">
+      <DependentUpon>Form_AccountDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Form_BankInit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Form_BankInit.Designer.cs">
+      <DependentUpon>Form_BankInit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Form_InvestOpen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="Form_InvestOpen.Designer.cs">
+      <DependentUpon>Form_InvestOpen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="Form_InvestDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="Form_InvestDetails.Designer.cs">
+      <DependentUpon>Form_InvestDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="InvestmentInstruments.cs" />
     <Compile Include="Program.cs" />
@@ -87,20 +87,20 @@
     <Compile Include="RecurringDeposit.cs" />
     <Compile Include="SavingAccount.cs" />
     <Compile Include="TransactionEvent.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_AccountOpen.resx">
+      <DependentUpon>Form_AccountOpen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Form_AccountDetails.resx">
+      <DependentUpon>Form_AccountDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Form_BankInit.resx">
+      <DependentUpon>Form_BankInit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="Form_InvestOpen.resx">
+      <DependentUpon>Form_InvestOpen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="Form_InvestDetails.resx">
+      <DependentUpon>Form_InvestDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

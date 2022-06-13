@@ -1,6 +1,5 @@
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.AssemblyReference.cache
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.SuggestedBindingRedirects.cache
-D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form1.resources
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Properties.Resources.resources
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.GenerateResource.cache
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.CoreCompileInputs.cache
@@ -9,7 +8,6 @@ D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\bin\Debug\CSharp_Day01_BankA
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\bin\Debug\CSharp_Day01_BankApp.pdb
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.exe
 D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.pdb
-D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form2.resources
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\bin\Debug\CSharp_Day01_BankApp.exe.config
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\bin\Debug\CSharp_Day01_BankApp.exe
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\bin\Debug\CSharp_Day01_BankApp.pdb
@@ -22,6 +20,8 @@ D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.csproj.CoreCompileInputs.cache
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.exe
 D:\dotnetBackup\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.pdb
-D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form3.resources
-D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form4.resources
-D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form5.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form_AccountOpen.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form_AccountDetails.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form_BankInit.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form_InvestOpen.resources
+D:\dotnet\CSharp_Day01_BankApp\CSharp_Day01_BankApp\obj\Debug\CSharp_Day01_BankApp.Form_InvestDetails.resources

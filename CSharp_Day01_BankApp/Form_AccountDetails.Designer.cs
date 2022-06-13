@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Day01_BankApp
 {
-    partial class Form2
+    partial class Form_AccountDetails
     {
         /// <summary>
         /// Required designer variable.
